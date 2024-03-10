@@ -9,3 +9,8 @@ typedef struct {
 	char	phoneNumber[PHONE_NUMBER_SIZE];
 
 }Customer;
+
+
+
+
+void	freeElements(char** elements, int count);

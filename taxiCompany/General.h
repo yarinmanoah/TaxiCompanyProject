@@ -10,11 +10,11 @@
 
 typedef unsigned char BYTE;
 
-char* getStrExactLength(const char* msg);
-char* getsStrFixSize(char* buffer, int size, const char* msg);
-char* myGets(char* buffer, int size, FILE* source);
-char* getDynStr(char* str);
-char** splitCharsToWords(char* str, int* pCount, const char* del, int* pTotalLength);
+char*	getStrExactLength(const char* msg);
+char*	getsStrFixSize(char* buffer, int size, const char* msg);
+char*	myGets(char* buffer, int size, FILE* source);
+char*	getDynStr(char* str);
+char**	splitCharsToWords(char* str, int* pCount, const char* del, int* pTotalLength);
 void	generalArrayFunction(void* arr, int size, int typeSize, void(*func)(void* element));
 
 float	getPositiveFloat(const char* msg);

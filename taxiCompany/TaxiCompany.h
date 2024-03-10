@@ -22,3 +22,7 @@ typedef struct {
 	Customer*	customerArr;
 	TripReservation*	tripReservationArr;
 }taxiCompany;
+
+
+void	freeCompany(taxiCompany* company);//char** elements, int count) {
+void	freeElements(char** elements, int count);

@@ -19,3 +19,7 @@ typedef struct {
 	int		rating;
 
 }Driver;
+
+
+//void	freeElements(char** elements, int count);
+void	freeElements(Driver* d1, int countShift, int countRides);//char** elements, int count)

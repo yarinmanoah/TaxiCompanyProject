@@ -9,3 +9,6 @@ typedef struct {
 	LIST	taxiList;
 
 }Importer;
+
+
+void	freeElements(char** elements, int count);
