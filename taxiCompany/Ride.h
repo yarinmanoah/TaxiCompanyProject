@@ -9,7 +9,7 @@ typedef struct {
 
 	Driver		driver;
 	Customer	customer;
-	Address		origunAddress;
+	Address		originAddress;
 	Address		destAddress;
 	Payment		payment;
 	int			numberOfPassengers;

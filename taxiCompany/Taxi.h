@@ -4,12 +4,12 @@
 #include "Driver.h"
 
 
-typedef enum { ePrivateCar, eMinibus, eNofOpt } eOption;
+typedef enum { ePrivateCar, eMinibus, eNofOpt } eType;
 static const char* OptStr[eNofOpt];
 
 typedef struct {
 
 	char		carNumber[CAR_NUMBER_SIZE];
-	eOption		Opt;
+	eType		Type;
 	Driver		driver;
 }Taxi;
